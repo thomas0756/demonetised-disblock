@@ -8,3 +8,13 @@ li:has(a[data-list-item-id$="___shop"]),
 li:has(a[data-list-item-id$="___quests"]) {
     display: none !important;
 }
+
+
+/* ==========
+    Settings
+   ========== */
+
+/* Billing and Nitro Section */
+li:has([data-settings-sidebar-item="nitro_panel"]) {
+    display: none !important;
+}
