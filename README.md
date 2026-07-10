@@ -1,7 +1,28 @@
 # demonetised-disblock
-CSS for Vencord to hide monetisation features while preserving users' purchased cosmetics.
+CSS for Vencord to hide monetisation features while preserving users' purchased cosmetics. It makes the following assumptions about how you use Discord:
 
-## Warnings
-This theme hides several settings under Data & Privacy related to using your data. Make sure to disable them before activating it, since you can't turn them off while it's active!
+- You have no intention of spending money on the platform
+- You have opted out of all possible tracking and don't intend to enable it
+- You don't intend to verify your age
+- You still wish to see other user's purchased cosmetics and premium features
+- You don't want to see Nitro-dependent options in settings
 
-..or don't, but why?
+# Features
+This theme hides the following elements:
+
+*DMs Panel*
+- Nitro, Shop and Quests entries
+
+*Messaging UI*
+- Gift Nitro button
+
+*Settings*
+- Billing and Nitro section
+- Data Collection toggles _(make sure they're off!)_
+- Nitro Rewards in Connections
+- Various Age Verification settings
+- Themes and App Icon
+- Family Centre
+
+## AI Disclosure
+An LLM Chatbot (ChatGPT 5.x) was used as a tool to assist creating this theme. No project-scale systems like Codex or Clause Code were used. As I'm unfamiliar with CSS I have used it to identify unique tags from HTML snippets and generate CSS to hide them. As I continue to work on this project, I plan to reduce my dependence on AI for this process.
