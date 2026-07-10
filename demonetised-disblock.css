@@ -1,0 +1,10 @@
+/* ============
+     DMs Panel
+   ============ */
+   
+/* Nitro, Shop and Quests */
+li:has(a[data-list-item-id$="___nitro"]),
+li:has(a[data-list-item-id$="___shop"]),
+li:has(a[data-list-item-id$="___quests"]) {
+    display: none !important;
+}
