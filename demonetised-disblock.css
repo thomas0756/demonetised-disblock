@@ -38,3 +38,11 @@ div[data-nav-anchor-key="connections_connected_accounts_category"],
 .divider__1de9c:has(+ div[data-nav-anchor-key="connections_connected_accounts_category"]) {
     display: none !important;
 }
+
+/* Age Verification */
+div[role="tabpanel"][id="content_and_social_main_tab-tab"] .noticeWrapper__35939 {
+    display: none !important;
+}
+div[data-nav-anchor-key="account_info_age_group_verify_setting"] {
+    display: none !important;
+}
