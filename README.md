@@ -25,7 +25,7 @@ This theme hides the following elements:
 - Family Centre
 
 ## Installation
-I recommend using this theme alongside Vencord. To install it, go to `Vencord Settings > Themes > Online Themes` and paste the following URL into the box: `https://raw.githubusercontent.com/thomas0756/demonetised-disblock/main/demonetised-disblock.css`.
+I recommend using this theme with [Vencord](https://vencord.dev/). To install it, go to `Vencord Settings > Themes > Online Themes` and paste the following URL into the box: `https://raw.githubusercontent.com/thomas0756/demonetised-disblock/main/demonetised-disblock.css`.
 
 ## AI Disclosure
 An LLM Chatbot (ChatGPT 5.x) was used as a tool to assist creating this theme. No project-scale systems like Codex or Clause Code were used. As I'm unfamiliar with CSS I have used it to identify unique tags from HTML snippets and generate CSS to hide them. As I continue to work on this project, I plan to reduce my dependence on AI for this process.
