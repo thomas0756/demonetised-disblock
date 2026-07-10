@@ -10,19 +10,22 @@ CSS for Vencord to hide monetisation features while preserving users' purchased 
 # Features
 This theme hides the following elements:
 
-*DMs Panel*
+**DMs Panel**
 - Nitro, Shop and Quests entries
 
-*Messaging UI*
+**Messaging UI**
 - Gift Nitro button
 
-*Settings*
+**Settings**
 - Billing and Nitro section
 - Data Collection toggles _(make sure they're off!)_
 - Nitro Rewards in Connections
 - Various Age Verification settings
 - Themes and App Icon
 - Family Centre
+
+## Installation
+I recommend using this theme alongside Vencord. To install it, go to `Vencord Settings > Themes > Online Themes` and paste the following URL into the box: `https://raw.githubusercontent.com/thomas0756/demonetised-disblock/main/demonetised-disblock.css`.
 
 ## AI Disclosure
 An LLM Chatbot (ChatGPT 5.x) was used as a tool to assist creating this theme. No project-scale systems like Codex or Clause Code were used. As I'm unfamiliar with CSS I have used it to identify unique tags from HTML snippets and generate CSS to hide them. As I continue to work on this project, I plan to reduce my dependence on AI for this process.
