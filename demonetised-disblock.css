@@ -10,6 +10,16 @@ li:has(a[data-list-item-id$="___quests"]) {
 }
 
 
+/* ==============
+    Messaging UI
+   ============== */
+
+/* Gift Nitro */
+button[aria-label="Send a gift"],
+div[role="button"][aria-label="Send a gift"] {
+    display: none !important;
+}
+
 /* ==========
     Settings
    ========== */
