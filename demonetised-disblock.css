@@ -46,3 +46,19 @@ div[role="tabpanel"][id="content_and_social_main_tab-tab"] .noticeWrapper__35939
 div[data-nav-anchor-key="account_info_age_group_verify_setting"] {
     display: none !important;
 }
+
+/* Themes (Nitro-Only or redundant because of Vencord */
+div[data-nav-anchor-key="appearance_theme_category"]
++ .divider__1de9c {
+    display: none !important;
+}
+div[data-nav-anchor-key="appearance_theme_category"] {
+    display: none !important;
+}
+div[data-nav-anchor-key="appearance_in_app_icon_category"]
++ .divider__1de9c {
+    display: none !important;
+}
+div[data-nav-anchor-key="appearance_in_app_icon_category"] {
+    display: none !important;
+}
