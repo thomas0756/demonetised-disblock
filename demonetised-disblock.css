@@ -18,3 +18,17 @@ li:has(a[data-list-item-id$="___quests"]) {
 li:has([data-settings-sidebar-item="nitro_panel"]) {
     display: none !important;
 }
+
+/* Data Collection */
+div[data-nav-anchor-key="data_usage_statistics_setting"] {
+    display: none !important;
+}
+div[data-nav-anchor-key="data_usage_personalization_setting"] {
+    display: none !important;
+}
+div[data-nav-anchor-key="data_usage_quests_setting"] {
+    display: none !important;
+}
+div[data-nav-anchor-key="data_usage_quests_3p_setting"] {
+    display: none !important;
+}
