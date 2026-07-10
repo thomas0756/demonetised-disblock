@@ -32,3 +32,9 @@ div[data-nav-anchor-key="data_usage_quests_setting"] {
 div[data-nav-anchor-key="data_usage_quests_3p_setting"] {
     display: none !important;
 }
+
+/* Nitro Rewards in Connections */
+div[data-nav-anchor-key="connections_connected_accounts_category"],
+.divider__1de9c:has(+ div[data-nav-anchor-key="connections_connected_accounts_category"]) {
+    display: none !important;
+}
