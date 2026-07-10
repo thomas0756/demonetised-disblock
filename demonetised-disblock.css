@@ -72,3 +72,19 @@ div:has([data-list-item-id="settings-sidebar___appearance_theme_category"])
 div[role="list"][style*="--custom-nav-count"] {
     --custom-nav-count: 4 !important;
 }
+
+/* Family Centre */
+div[data-nav-anchor-key="account_family_center_category"] {
+    display: none !important;
+}
+div[data-nav-anchor-key="account_family_center_category"]
++ .divider__1de9c {
+    display: none !important;
+}
+div[role="listitem"]:has([data-list-item-id="settings-sidebar___account_family_center_category"]) {
+    display: none !important;
+}
+div:has([data-list-item-id="settings-sidebar___account_family_center_category"])
+div[role="list"][style*="--custom-nav-count"] {
+    --custom-nav-count: 3 !important;
+}
